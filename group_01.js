@@ -3,10 +3,10 @@ var arrayJem = ["Jem", "62347", "63500", 4];
 var arrayBoo = ["Boo", "11435", "54000", 3];
 var arrayScout = ["Scout", "6243", "74750", 5];
 
-var arrayAtticusSTI = workHorse(arrayAtticus, arrayAtticusSTI);
-var arrayJemSTI = workHorse(arrayJem, arrayJemSTI);
-var arrayBooSTI = workHorse(arrayBoo, arrayBooSTI);
-var arrayScoutSTI = workHorse(arrayScout, arrayScoutSTI);
+var arrayAtticusSTI = workHorse(arrayAtticus);
+var arrayJemSTI = workHorse(arrayJem);
+var arrayBooSTI = workHorse(arrayBoo);
+var arrayScoutSTI = workHorse(arrayScout);
 
 function workHorse(array){
 	var arraySTI = addName(array);
